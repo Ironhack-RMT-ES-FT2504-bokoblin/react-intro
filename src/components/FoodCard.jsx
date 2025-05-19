@@ -7,6 +7,7 @@ function FoodCard(props) {
       <span>{props.emoji}</span>
       <h4>{props.foodType}: {props.foodName}</h4>
       <p>Description: {props.description}</p>
+      <p>Lo mejor de nuestra cocina!</p>
     </div>
   )
 
